@@ -100,7 +100,7 @@ if (!function_exists('get_template_file_path')) {
             return $path;
         }
 
-        if($templateType == 'swagger-generator' || $templateType == 'routes-explorer'){
+        if($templateType == 'swagger-generator'){
             $vendor = 'infyomlabs';
         }else{
             $vendor = 'sk4t0';
